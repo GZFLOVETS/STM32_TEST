@@ -1,0 +1,44 @@
+---- DR Matches (43 in 10 files) ----
+ADC.c (d:\smatto_keil\stm32_kuozhanbanv1\user):	DMA_InitStructure.DMA_PeripheralBaseAddr = (u32)(&(ADC1->DR));
+ADC.h (d:\smatto_keil\stm32_kuozhanbanv1\user):#define ADC_STAT_DR_ADDR						(u32)(&(ADCx->DR))	
+Stm32f10x.h (d:\smatto_keil\stm32_kuozhanbanv1\cmsis):  __IO uint32_t DR;
+Stm32f10x.h (d:\smatto_keil\stm32_kuozhanbanv1\cmsis):  __IO uint32_t DR;
+Stm32f10x.h (d:\smatto_keil\stm32_kuozhanbanv1\cmsis):  __IO uint16_t DR;
+Stm32f10x.h (d:\smatto_keil\stm32_kuozhanbanv1\cmsis):  __IO uint16_t DR;
+Stm32f10x.h (d:\smatto_keil\stm32_kuozhanbanv1\cmsis):  __IO uint16_t DR;
+Stm32f10x_adc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):/* ADC1 DR register base address */
+Stm32f10x_adc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  return (uint16_t) ADCx->DR;
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):#define IS_BKP_DR(DR) (((DR) == BKP_DR1)  || ((DR) == BKP_DR2)  || ((DR) == BKP_DR3)  || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR4)  || ((DR) == BKP_DR5)  || ((DR) == BKP_DR6)  || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR7)  || ((DR) == BKP_DR8)  || ((DR) == BKP_DR9)  || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR10) || ((DR) == BKP_DR11) || ((DR) == BKP_DR12) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR13) || ((DR) == BKP_DR14) || ((DR) == BKP_DR15) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR16) || ((DR) == BKP_DR17) || ((DR) == BKP_DR18) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR19) || ((DR) == BKP_DR20) || ((DR) == BKP_DR21) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR22) || ((DR) == BKP_DR23) || ((DR) == BKP_DR24) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR25) || ((DR) == BKP_DR26) || ((DR) == BKP_DR27) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR28) || ((DR) == BKP_DR29) || ((DR) == BKP_DR30) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR31) || ((DR) == BKP_DR32) || ((DR) == BKP_DR33) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR34) || ((DR) == BKP_DR35) || ((DR) == BKP_DR36) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR37) || ((DR) == BKP_DR38) || ((DR) == BKP_DR39) || \
+Stm32f10x_bkp.h (d:\smatto_keil\stm32_kuozhanbanv1\lib\inc):                       ((DR) == BKP_DR40) || ((DR) == BKP_DR41) || ((DR) == BKP_DR42))
+Stm32f10x_crc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  * @brief  Resets the CRC Data register (DR).
+Stm32f10x_crc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  CRC->DR = Data;
+Stm32f10x_crc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  return (CRC->DR);
+Stm32f10x_crc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):    CRC->DR = pBuffer[index];
+Stm32f10x_crc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  return (CRC->DR);
+Stm32f10x_crc.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  return (CRC->DR);
+Stm32f10x_i2c.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  /* Write in the DR register the data to be sent */
+Stm32f10x_i2c.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  I2Cx->DR = Data;
+Stm32f10x_i2c.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  /* Return the data in the DR register */
+Stm32f10x_i2c.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  return (uint8_t)I2Cx->DR;
+Stm32f10x_i2c.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  I2Cx->DR = Address;
+Stm32f10x_i2c.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  *     @arg I2C_Register_DR:    DR register.
+Stm32f10x_i2c.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  *     second byte of the address in DR register.
+Stm32f10x_spi.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  /* Write in the DR register the data to be sent */
+Stm32f10x_spi.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  SPIx->DR = Data;
+Stm32f10x_spi.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  /* Return the data in the DR register */
+Stm32f10x_spi.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  return SPIx->DR;
+Stm32f10x_usart.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  USARTx->DR = (Data & (uint16_t)0x01FF);
+Stm32f10x_usart.c (d:\smatto_keil\stm32_kuozhanbanv1\lib\src):  return (uint16_t)(USARTx->DR & (uint16_t)0x01FF);
+STM_SmattoV1.build_log.htm (d:\smatto_keil\stm32_kuozhanbanv1\objects):        DMA_InitStructure.DMA_PeripheralBaseAddr = (u32)(&(ADCx->DR));
